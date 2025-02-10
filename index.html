@@ -1,250 +1,777 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Antique Bakery Cafe HTML Template by Tooplate</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/all.min.css"> <!-- fontawesome -->
-    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="css/tailwind.css">
-    <link rel="stylesheet" href="css/tooplate-antique-cafe.css">
-    
-<!--
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
 
-Tooplate 2126 Antique Cafe
+  <title> Finexo </title>
 
-https://www.tooplate.com/view/2126-antique-cafe
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
--->
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
 </head>
-<body>    
-    <!-- Intro -->
-    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-01.jpg">
-        <nav id="tm-nav" class="fixed w-full">
-            <div class="tm-container mx-auto px-2 md:py-6 text-right">
-                <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
-                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
-                    <li class="inline-block mb-4 mx-4"><a href="#intro" class="tm-text-gold py-1 md:py-3 px-4">Intro</a></li>
-                    <li class="inline-block mb-4 mx-4"><a href="#menu" class="tm-text-gold py-1 md:py-3 px-4">Menu</a></li>
-                    <li class="inline-block mb-4 mx-4"><a href="#about" class="tm-text-gold py-1 md:py-3 px-4">About</a></li>
-                    <li class="inline-block mb-4 mx-4"><a href="#contact" class="tm-text-gold py-1 md:py-3 px-4">Contact</a></li>
-                </ul>
-            </div>            
+
+<body>
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Finexo
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="why.html">Why Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+              </li>
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </ul>
+          </div>
         </nav>
-        <div class="container mx-auto px-2 tm-intro-width">
-            <div class="sm:pb-60 sm:pt-48 py-20">
-                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
-                    <h1 class="text-white text-5xl tm-logo-font mb-5">Antique Cafe</h1>
-                    <p class="tm-text-gold tm-text-2xl">your daily energy booster</p>
-                </div>    
-                <div class="bg-black bg-opacity-70 p-10 mb-5">
-                    <p class="text-white leading-8 text-sm font-light">
-                        This is a coffee shop template named Antique Cafe which is a parallax HTML5 template with a good responsiveness.
-                        Feel free to use this layout for your cafe.
-                    	If you have any question, please <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">send us a message</a>. </p>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Crypto <br>
+                      Currency
+                    </h1>
+                    <p>
+                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div class="text-center">
-                    <div class="inline-block">
-                        <a href="#menu" class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
-                            <i class="fas fa-coffee mr-3"></i>
-                            <span>Let's explore...</span>                        
-                        </a>
-                    </div>                    
-                </div>                
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/slider-img.png" alt="">
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>        
-    </div>
-    <!-- Cafe Menu -->
-    <div id="menu" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-02.jpg">
-        <div class="container mx-auto tm-container py-24 sm:py-48">
-            <div class="text-center mb-16">
-                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Our Cafe Menu</h2>
-            </div>            
-            <div class="flex flex-col lg:flex-row justify-around items-center">
-                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
-                    <div class="flex items-start mb-6 tm-menu-item">
-                        <img src="img/menu-item-1.jpg" alt="Image" class="rounded-md">
-                        <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Cappuccino</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">S $8.50</div>
-                            <div class="text-white text-md sm:text-lg font-light">L $10.50</div>
-                        </div>                    
+          </div>
+          <div class="carousel-item ">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Crypto <br>
+                      Currency
+                    </h1>
+                    <p>
+                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Read More
+                      </a>
                     </div>
-                    <div class="flex items-start mb-6 tm-menu-item">
-                        <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md">
-                        <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Americano</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">S $9.50 . BG #544639</div>
-                            <div class="text-white text-md sm:text-lg font-light">L $12.50</div>
-                        </div>                    
-                    </div>
-                    <div class="flex items-start mb-6 tm-menu-item">
-                        <img src="img/menu-item-3.jpg" alt="Image" class="rounded-md">
-                        <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Latte #FC6</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">M $11.75</div>
-                            <div class="text-white text-md sm:text-lg font-light">L $14.75</div>
-                        </div>                    
-                    </div>
-                    <div class="flex items-start mb-6 tm-menu-item">
-                        <img src="img/menu-item-4.jpg" alt="Image" class="rounded-md">
-                        <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Hot Espresso</h3>
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Chocolate</h3>
-                            <div class="text-white text-md sm:text-lg font-light">Size M $11.75 . L $14.75</div>
-                        </div>                    
-                    </div>
+                  </div>
                 </div>
-                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
-                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
-                        <div class="text-right mr-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Cappuccino</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $10</div>
-                            <div class="text-white text-md sm:text-lg font-light">Large $15</div>
-                        </div>
-                        <img src="img/menu-item-5.jpg" alt="Image" class="rounded-md">                   
-                    </div>
-                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
-                        <div class="text-right mr-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Americano</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $12.50</div>
-                            <div class="text-white text-md sm:text-lg font-light">Large $16.50</div>
-                        </div>
-                        <img src="img/menu-item-6.jpg" alt="Image" class="rounded-md">                    
-                    </div>
-                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
-                        <div class="text-right mr-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Milky Latte</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $14</div>
-                            <div class="text-white text-md sm:text-lg font-light">Large $18</div>
-                        </div>   
-                        <img src="img/menu-item-7.jpg" alt="Image" class="rounded-md">                 
-                    </div>
-                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">                    
-                        <div class="text-right mr-6">
-                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Iced Espresso</h3>
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Mocha</h3>
-                            <div class="text-white text-md sm:text-lg font-light">Small $10 . Large $15</div>
-                        </div> 
-                        <img src="img/menu-item-8.jpg" alt="Image" class="rounded-md">                   
-                    </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/slider-img.png" alt="">
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>        
-    </div>
-    <div id="about" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-03.jpg">
-        <div class="container mx-auto tm-container py-24 sm:py-48">
-            <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
-                <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
-                    <h2 class="mb-6 tm-text-green text-4xl font-medium">About our cafe</h2>
-                    <p class="mb-6 text-base leading-8">
-                        Images are taken from Pexels, a great stock photo website. This template used Tailwind CSS. You may modify Antique Cafe template in any way you prefer and use it for your website.
-                  </p>
-                    <p class="text-base leading-8">
-                        If you wish to <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">support us</a>, please make a little donation via PayPal. That would be
-                    very helpful. Another way is to tell your friends about Tooplate website. Thank you. </p>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Crypto <br>
+                      Currency
+                    </h1>
+                    <p>
+                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <a href="#contact" class="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">
-                    <i class="far fa-comments mr-4"></i>
-                    Contact
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/slider-img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel1" data-slide-to="1"></li>
+          <li data-target="#customCarousel1" data-slide-to="2"></li>
+        </ol>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Our <span>Services</span>
+          </h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Currency Wallet
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using
+                </p>
+                <a href="">
+                  Read More
                 </a>
-            </div>           
-        </div>        
-    </div>
-    <div id="contact" class="parallax-window relative" data-parallax="scroll" data-image-src="img/antique-cafe-bg-04.jpg">
-        <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
-            <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
-                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
-                    <h2 class="text-3xl mb-6 tm-text-green">Contact Us</h2>
-                    <p class="mb-6 text-lg leading-8">
-                        Praesent tellus magna, consectetur sit amet volutpat eu, pulvinar vitae sem.
-                        Sed ultrices. bg white 80% alpha. btn #066    
-                    </p>
-                    <p class="mb-10 text-lg">
-                        <span class="block mb-2">Tel: <a href="tel:0100200340" class="hover:text-yellow-600 transition">010-020-0340</a></span>
-                        <span class="block">Email: <a href="mailto:info@company.com" class="hover:text-yellow-600 transition">info@company.com</a></span>                        
-                    </p>
-                    <div class="text-center">
-                        <a href="https://www.google.com/maps" class="inline-block text-white text-2xl pl-10 pr-12 py-6 rounded-lg transition tm-bg-green">
-                            <i class="fas fa-map-marked-alt mr-8"></i>
-                            Open Maps
-                        </a>
-                    </div>                    
-                </div>
-                <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container">
-                    <form action="" method="POST" class="text-lg">
-                        <input type="text" name="name" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Name" required="" />
-                        <input type="email" name="email" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Email" required="" />
-                        <textarea rows="6" name="message" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Message..." required=""></textarea>
-                        <div class="text-right">
-                            <button type="submit" class="text-white hover:text-yellow-500 transition">Send it</button>
-                        </div>                        
-                      </form>
-                </div>
+              </div>
             </div>
-            <footer class="absolute bottom-0 left-0 w-full">
-                <div class="text-white container mx-auto tm-container p-8 text-lg flex flex-col md:flex-row justify-between">
-                    <span>Copyright 2022 Antique Cafe. All rights reserved.</span>
-                    <span class="mt-5 md:mt-0">Design: <a href="https://www.tooplate.com" target="_parent">Tooplate</a></span>
-                </div>                
-            </footer>
-        </div>        
-    </div>    
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Security Storage
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using
+                </p>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Expert Support
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using
+                </p>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-box">
+          <a href="">
+            View All
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
-    <script>
+  <!-- end service section -->
 
-        function checkAndShowHideMenu() {
-            if(window.innerWidth < 768) {
-                $('#tm-nav ul').addClass('hidden');                
-            } else {
-                $('#tm-nav ul').removeClass('hidden');
-            }
-        }
 
-        $(function(){
-            var tmNav = $('#tm-nav');
-            tmNav.singlePageNav();
+  <!-- about section -->
 
-            checkAndShowHideMenu();
-            window.addEventListener('resize', checkAndShowHideMenu);
+  <section class="about_section layout_padding">
+    <div class="container  ">
+      <div class="heading_container heading_center">
+        <h2>
+          About <span>Us</span>
+        </h2>
+        <p>
+          Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum ipsum voluptatibus
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <h3>
+              We Are Finexo
+            </h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
+              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
+              the middle of text. All
+            </p>
+            <p>
+              Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            $('#menu-toggle').click(function(){
-                $('#tm-nav ul').toggleClass('hidden');
-            });
+  <!-- end about section -->
 
-            $('#tm-nav ul li').click(function(){
-                if(window.innerWidth < 768) {
-                    $('#tm-nav ul').addClass('hidden');
-                }                
-            });
+  <!-- why section -->
 
-            $(document).scroll(function() {
-                var distanceFromTop = $(document).scrollTop();
+  <section class="why_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Why Choose <span>Us</span>
+        </h2>
+      </div>
+      <div class="why_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/w1.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Expert Management
+            </h5>
+            <p>
+              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
+              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/w2.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Secure Investment
+            </h5>
+            <p>
+              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
+              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/w3.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Instant Trading
+            </h5>
+            <p>
+              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
+              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/w4.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Happy Customers
+            </h5>
+            <p>
+              Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
+              Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          Read More
+        </a>
+      </div>
+    </div>
+  </section>
 
-                if(distanceFromTop > 100) {
-                    tmNav.addClass('scroll');
-                } else {
-                    tmNav.removeClass('scroll');
-                }
-            });
-            
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
+  <!-- end why section -->
 
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
-            });
-        });
-    </script>
+  <!-- team section -->
+  <section class="team_section layout_padding">
+    <div class="container-fluid">
+      <div class="heading_container heading_center">
+        <h2 class="">
+          Our <span> Team</span>
+        </h2>
+      </div>
+
+      <div class="team_container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/team-1.jpg" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Joseph Brown
+                </h5>
+                <p>
+                  Marketing Head
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/team-2.jpg" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Nancy White
+                </h5>
+                <p>
+                  Marketing Head
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/team-3.jpg" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Earl Martinez
+                </h5>
+                <p>
+                  Marketing Head
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/team-4.jpg" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Josephine Allard
+                </h5>
+                <p>
+                  Marketing Head
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end team section -->
+
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center psudo_white_primary mb_45">
+        <h2>
+          What says our <span>Customers</span>
+        </h2>
+      </div>
+      <div class="carousel-wrap ">
+        <div class="owl-carousel client_owl-carousel">
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/client1.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <div class="client_id">
+                  <div class="client_info">
+                    <h6>
+                      LusDen
+                    </h6>
+                    <p>
+                      magna aliqua. Ut
+                    </p>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/client2.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <div class="client_id">
+                  <div class="client_info">
+                    <h6>
+                      Zen Court
+                    </h6>
+                    <p>
+                      magna aliqua. Ut
+                    </p>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/client1.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <div class="client_id">
+                  <div class="client_info">
+                    <h6>
+                      LusDen
+                    </h6>
+                    <p>
+                      magna aliqua. Ut
+                    </p>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/client2.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <div class="client_id">
+                  <div class="client_info">
+                    <h6>
+                      Zen Court
+                    </h6>
+                    <p>
+                      magna aliqua. Ut
+                    </p>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_contact">
+            <h4>
+              Address
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +01 1234567890
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  demo@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_detail">
+            <h4>
+              Info
+            </h4>
+            <p>
+              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto info_col">
+          <div class="info_link_box">
+            <h4>
+              Links
+            </h4>
+            <div class="info_links">
+              <a class="active" href="index.html">
+                Home
+              </a>
+              <a class="" href="about.html">
+                About
+              </a>
+              <a class="" href="service.html">
+                Services
+              </a>
+              <a class="" href="why.html">
+                Why Us
+              </a>
+              <a class="" href="team.html">
+                Team
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col ">
+          <h4>
+            Subscribe
+          </h4>
+          <form action="#">
+            <input type="text" placeholder="Enter email" />
+            <button type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
 </body>
+
 </html>
